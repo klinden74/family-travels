@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorado Adventure - Our Family Travels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="main-header scrolled">
+        <nav>
+            <a href="../index.html" class="logo">Our Travels</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Journeys</a></li>
+                <li><a href="../index.html#about">Our Story</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <span class="icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <article class="trip-page">
+            <a href="../index.html" class="back-link">← Back to all journeys</a>
+
+            <!-- Trip Hero -->
+            <section class="trip-hero">
+                <!-- Replace with your own trip cover photo -->
+                <div class="trip-hero-background" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=80');"></div>
+                <div class="trip-hero-overlay"></div>
+                <div class="trip-hero-content">
+                    <span class="trip-date">July 15 — 22, 2025</span>
+                    <h1>Colorado Adventure</h1>
+                    <p class="trip-location-header">Rocky Mountain National Park, Colorado</p>
+                </div>
+            </section>
+
+            <!-- Trip Introduction -->
+            <section class="trip-intro">
+                <p>A week of hiking through alpine meadows, spotting wildlife, and taking in the breathtaking mountain vistas. From the crystal-clear waters of Emerald Lake to the windswept peaks of Trail Ridge Road, this journey reminded us why we travel together—to witness the extraordinary and share it with the ones we love.</p>
+            </section>
+
+            <!-- Trip Stats -->
+            <section class="trip-overview">
+                <div class="stat-card">
+                    <span class="stat-value">7</span>
+                    <span class="stat-label">Days</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">12</span>
+                    <span class="stat-label">Hikes</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">156</span>
+                    <span class="stat-label">Photos</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">12,183</span>
+                    <span class="stat-label">Peak Elevation (ft)</span>
+                </div>
+            </section>
+
+            <!-- Itinerary Section -->
+            <section class="itinerary">
+                <h2>The Journey</h2>
+
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">01</span>
+                        <span class="day-date">July 15</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Arrival & Estes Park</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">10:00 AM</span>
+                                <span class="activity-desc">Flight arrived at Denver International Airport</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">12:30 PM</span>
+                                <span class="activity-desc">Picked up rental car and drove to Estes Park</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">3:00 PM</span>
+                                <span class="activity-desc">Checked into cabin, explored downtown Estes Park</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">6:00 PM</span>
+                                <span class="activity-desc">Dinner at Smokin' Dave's BBQ</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">The kids were so excited to see the mountains for the first time! We spotted elk grazing right in town as the sun set behind the peaks.</p>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">02</span>
+                        <span class="day-date">July 16</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Bear Lake Area</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">7:00 AM</span>
+                                <span class="activity-desc">Early start to beat crowds at Bear Lake</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">8:00 AM</span>
+                                <span class="activity-desc">Hiked to Nymph Lake, Dream Lake, and Emerald Lake</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">1:00 PM</span>
+                                <span class="activity-desc">Picnic lunch at Bear Lake</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">3:00 PM</span>
+                                <span class="activity-desc">Alberta Falls hike</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Emerald Lake was absolutely stunning—the water was impossibly clear and the mountains reflected perfectly on its surface. Worth every step.</p>
+                    </div>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">03</span>
+                        <span class="day-date">July 17</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Trail Ridge Road</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">9:00 AM</span>
+                                <span class="activity-desc">Drove Trail Ridge Road to Alpine Visitor Center</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">11:00 AM</span>
+                                <span class="activity-desc">Alpine tundra walk—spotted marmots!</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">2:00 PM</span>
+                                <span class="activity-desc">Lunch in Grand Lake</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">5:00 PM</span>
+                                <span class="activity-desc">Return drive with golden hour views</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Standing at 12,000 feet, watching the world stretch out below us—it felt like we could see forever. The kids couldn't stop talking about the marmots.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Photo Gallery Section -->
+            <section class="photo-gallery">
+                <h2>Moments Captured</h2>
+                <p class="gallery-intro">A collection of memories from our Colorado adventure.</p>
+
+                <div class="gallery-grid">
+                    <!-- Replace placeholder divs with actual images from your trip -->
+                    <!-- Example: <div class="gallery-item" data-caption="Caption here"><img src="../photos/your-image.jpg" alt="Description"></div> -->
+
+                    <div class="gallery-item" data-caption="Bear Lake at sunrise">
+                        <div class="photo-placeholder">
+                            <span>🏔️</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Hiking to Emerald Lake">
+                        <div class="photo-placeholder">
+                            <span>🥾</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Elk in Estes Park">
+                        <div class="photo-placeholder">
+                            <span>🦌</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Family at Alpine Visitor Center">
+                        <div class="photo-placeholder">
+                            <span>👨‍👩‍👧‍👦</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Trail Ridge Road panorama">
+                        <div class="photo-placeholder">
+                            <span>🛣️</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Curious marmot">
+                        <div class="photo-placeholder">
+                            <span>🐿️</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trip Highlights -->
+            <section class="trip-highlights">
+                <h2>Reflections</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h4>The Unforgettable Moment</h4>
+                        <p>Watching the sunset from Trail Ridge Road while the kids spotted their first marmot. The light was golden, the air was thin, and everyone was laughing.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Best Discovery</h4>
+                        <p>Bird & Jim restaurant in Estes Park—their breakfast burritos became our morning ritual.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Travel Tip</h4>
+                        <p>Arrive at Bear Lake before 7 AM. The parking fills quickly, but the early morning light on the water is worth waking up for.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>We'd Do It Again</h4>
+                        <p>The Emerald Lake hike—challenging enough to feel accomplished, beautiful enough to take your breath away.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Lightbox for photos -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+        <button class="lightbox-next" aria-label="Next">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-logo">Our Family Travels</p>
+            <p class="footer-tagline">Collecting memories, one adventure at a time.</p>
+            <p class="footer-copyright">© 2026 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
