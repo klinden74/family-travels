@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banff & Jasper 2026 | Our Family Travels</title>
+    <title>Banff & Jasper 2026 - Our Family Travels</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header scrolled">
         <nav>
             <a href="../index.html" class="logo">Our Travels</a>
             <ul class="nav-links">
-                <li><a href="../index.html#national-parks">National Parks</a></li>
-                <li><a href="../index.html#ski">Ski Trips</a></li>
-                <li><a href="../index.html#summer">Summer</a></li>
-                <li><a href="../index.html#couples">Just Us</a></li>
-                <li><a href="../index.html#wishlist">Wishlist</a></li>
+                <li><a href="../index.html">Journeys</a></li>
+                <li><a href="../index.html#about">Our Story</a></li>
             </ul>
             <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                 <span class="icon">🌙</span>
@@ -26,301 +23,372 @@
         </nav>
     </header>
 
-    <!-- Trip Hero -->
-    <section class="trip-hero">
-        <div class="hero-background" style="background-image: url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1920&q=80');"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <span class="hero-subtitle">June 2026</span>
-            <h1>Banff & Jasper</h1>
-            <p>Canadian Rockies Adventure</p>
-        </div>
-    </section>
+    <main>
+        <article class="trip-page">
+            <a href="../index.html" class="back-link">← Back to all journeys</a>
 
-    <main class="trip-content">
-        <!-- Trip Overview -->
-        <section class="trip-overview">
-            <div class="overview-card">
-                <h3>Duration</h3>
-                <p>7 Days</p>
-            </div>
-            <div class="overview-card">
-                <h3>Parks Visited</h3>
-                <p>Banff, Yoho & Jasper</p>
-            </div>
-            <div class="overview-card">
-                <h3>Highlights</h3>
-                <p>Lake Louise, Icefields Parkway</p>
-            </div>
-            <div class="overview-card">
-                <h3>Base</h3>
-                <p>Banff & Jasper, Alberta</p>
-            </div>
-        </section>
-
-        <!-- Itinerary -->
-        <section class="itinerary">
-            <h2>The Itinerary</h2>
-
-            <!-- Banff Section -->
-            <div class="itinerary-section">
-                <h3 class="section-title">Banff</h3>
-                <p class="section-subtitle">5 Nights in the Heart of the Canadian Rockies</p>
-            </div>
-
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 1</span>
-                    <span class="day-date">June 21, 2026</span>
+            <!-- Trip Hero -->
+            <section class="trip-hero">
+                <div class="trip-hero-background" style="background-image: url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1920&q=80');"></div>
+                <div class="trip-hero-overlay"></div>
+                <div class="trip-hero-content">
+                    <span class="trip-date">June 21 — 27, 2026</span>
+                    <h1>Banff & Jasper</h1>
+                    <p class="trip-location-header">Canadian Rockies Adventure</p>
                 </div>
-                <h3>Arrival & Explore Banff Town</h3>
-                <div class="day-details">
-                    <div class="detail-item">
-                        <strong>Travel:</strong> Fly into Calgary International Airport (YYC)
-                    </div>
-                    <div class="detail-item">
-                        <strong>Drive:</strong> Calgary to Banff (~1.5 hours via Trans-Canada Highway)
-                    </div>
-                    <div class="detail-item">
-                        <strong>Afternoon:</strong> Check in and explore the charming town of Banff
-                    </div>
-                    <div class="detail-item">
-                        <strong>Evening:</strong> Stroll Banff Avenue, browse local shops, enjoy dinner in town
-                    </div>
-                </div>
-            </div>
+            </section>
 
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 2</span>
-                    <span class="day-date">June 22, 2026</span>
+            <!-- Trip Introduction -->
+            <section class="trip-intro">
+                <p>The Canadian Rockies have been calling to us for years—those iconic turquoise lakes, towering peaks, and the famous Icefields Parkway. This summer, we're finally making the trip, spending a week exploring three incredible national parks: Banff, Yoho, and Jasper. From the charming town of Banff to the wilderness of Jasper, this journey promises stunning scenery at every turn.</p>
+            </section>
+
+            <!-- Trip Stats -->
+            <section class="trip-overview">
+                <div class="stat-card">
+                    <span class="stat-value">7</span>
+                    <span class="stat-label">Days</span>
                 </div>
-                <h3>Banff National Park</h3>
-                <div class="day-details">
-                    <div class="detail-item">
-                        <strong>Full Day:</strong> Explore Canada's first national park
+                <div class="stat-card">
+                    <span class="stat-value">3</span>
+                    <span class="stat-label">National Parks</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">232</span>
+                    <span class="stat-label">km on Icefields Parkway</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">2</span>
+                    <span class="stat-label">Provinces</span>
+                </div>
+            </section>
+
+            <!-- Itinerary Section -->
+            <section class="itinerary">
+                <h2>The Journey</h2>
+
+                <!-- Day 1 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">01</span>
+                        <span class="day-date">Jun 21</span>
                     </div>
-                    <div class="detail-item">
-                        <strong>Must-See:</strong> Bow Falls, Tunnel Mountain, Sulphur Mountain Gondola
-                    </div>
-                    <div class="detail-item">
-                        <strong>Lakes:</strong> Minnewanka Lake, Two Jack Lake, Vermilion Lakes
-                    </div>
-                    <div class="detail-item">
-                        <strong>Wildlife:</strong> Keep an eye out for elk, bighorn sheep, and bears
+                    <div class="day-content">
+                        <h3>Arrival & Explore Banff Town</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Morning</span>
+                                <span class="activity-desc">Fly into Calgary International Airport (YYC)</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Midday</span>
+                                <span class="activity-desc">Drive to Banff (~1.5 hours via Trans-Canada Highway)</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Afternoon</span>
+                                <span class="activity-desc">Check in and explore the charming town of Banff</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Evening</span>
+                                <span class="activity-desc">Stroll Banff Avenue, browse local shops, dinner in town</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
 
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 3</span>
-                    <span class="day-date">June 23, 2026</span>
-                </div>
-                <h3>Lake Louise</h3>
-                <div class="day-details">
-                    <div class="detail-item">
-                        <strong>Morning:</strong> Drive to Lake Louise (~45 minutes from Banff)
+                <!-- Day 2 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">02</span>
+                        <span class="day-date">Jun 22</span>
                     </div>
-                    <div class="detail-item">
-                        <strong>Activities:</strong> Walk the lakeshore trail, canoe on the turquoise waters
-                    </div>
-                    <div class="detail-item">
-                        <strong>Hike:</strong> Plain of Six Glaciers or Lake Agnes Tea House trail
-                    </div>
-                    <div class="detail-item highlight">
-                        <strong>Dining:</strong> Meal at Fairmont Chateau Lake Louise
-                    </div>
-                    <div class="detail-item">
-                        <strong>Nearby:</strong> Moraine Lake (arrive early to avoid crowds)
-                    </div>
-                </div>
-            </div>
-
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 4</span>
-                    <span class="day-date">June 24, 2026</span>
-                </div>
-                <h3>Yoho National Park</h3>
-                <div class="day-details">
-                    <div class="detail-item">
-                        <strong>Location:</strong> Cross into British Columbia (~30 min from Lake Louise)
-                    </div>
-                    <div class="detail-item">
-                        <strong>Highlights:</strong> Emerald Lake, Natural Bridge, Takakkaw Falls
-                    </div>
-                    <div class="detail-item">
-                        <strong>Meaning:</strong> "Yoho" is a Cree expression of awe and wonder
-                    </div>
-                    <div class="detail-item">
-                        <strong>Hike:</strong> Iceline Trail or Emerald Lake Loop
+                    <div class="day-content">
+                        <h3>Banff National Park</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">All Day</span>
+                                <span class="activity-desc">Explore Canada's first national park</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Must-See</span>
+                                <span class="activity-desc">Bow Falls, Tunnel Mountain, Sulphur Mountain Gondola</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Lakes</span>
+                                <span class="activity-desc">Minnewanka Lake, Two Jack Lake, Vermilion Lakes</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Keep an eye out for elk, bighorn sheep, and bears throughout the park.</p>
                     </div>
                 </div>
-            </div>
 
-            <!-- Jasper Section -->
-            <div class="itinerary-section">
-                <h3 class="section-title">Jasper</h3>
-                <p class="section-subtitle">2 Nights in Canada's Largest Rocky Mountain Park</p>
-            </div>
-
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 5</span>
-                    <span class="day-date">June 25, 2026</span>
-                </div>
-                <h3>Icefields Parkway</h3>
-                <div class="day-details">
-                    <div class="detail-item highlight">
-                        <strong>Scenic Drive:</strong> Transfer from Banff to Jasper via the legendary Icefields Parkway
+                <!-- Day 3 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">03</span>
+                        <span class="day-date">Jun 23</span>
                     </div>
-                    <div class="detail-item">
-                        <strong>Distance:</strong> 232 km (144 miles) of stunning mountain scenery
-                    </div>
-                    <div class="detail-item">
-                        <strong>Stops:</strong> Bow Lake, Peyto Lake, Columbia Icefield, Athabasca Falls
-                    </div>
-                    <div class="detail-item">
-                        <strong>Experience:</strong> Columbia Icefield Glacier Adventure or Skywalk
-                    </div>
-                    <div class="detail-item">
-                        <strong>Evening:</strong> Arrive in Jasper, check in and explore the town
-                    </div>
-                </div>
-            </div>
-
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 6</span>
-                    <span class="day-date">June 26, 2026</span>
-                </div>
-                <h3>Jasper National Park</h3>
-                <div class="day-details">
-                    <div class="detail-item">
-                        <strong>Full Day:</strong> Explore the largest national park in the Canadian Rockies
-                    </div>
-                    <div class="detail-item">
-                        <strong>Must-See:</strong> Maligne Lake, Spirit Island boat cruise, Maligne Canyon
-                    </div>
-                    <div class="detail-item">
-                        <strong>Activities:</strong> Hiking, wildlife viewing, Jasper SkyTram
-                    </div>
-                    <div class="detail-item">
-                        <strong>Dark Sky:</strong> Jasper is a Dark Sky Preserve - incredible stargazing
+                    <div class="day-content">
+                        <h3>Lake Louise</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Morning</span>
+                                <span class="activity-desc">Drive to Lake Louise (~45 minutes from Banff)</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Daytime</span>
+                                <span class="activity-desc">Walk the lakeshore trail, canoe on the turquoise waters</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Hike</span>
+                                <span class="activity-desc">Plain of Six Glaciers or Lake Agnes Tea House trail</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Lunch</span>
+                                <span class="activity-desc">Meal at Fairmont Chateau Lake Louise</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Arrive early or take the Parks Canada shuttle to avoid parking headaches at Lake Louise and Moraine Lake.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="day-card">
-                <div class="day-header">
-                    <span class="day-number">Day 7</span>
-                    <span class="day-date">June 27, 2026</span>
+                <!-- Day 4 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">04</span>
+                        <span class="day-date">Jun 24</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Yoho National Park</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Morning</span>
+                                <span class="activity-desc">Cross into British Columbia (~30 min from Lake Louise)</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Highlights</span>
+                                <span class="activity-desc">Emerald Lake, Natural Bridge, Takakkaw Falls</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Hike</span>
+                                <span class="activity-desc">Iceline Trail or Emerald Lake Loop</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">"Yoho" is a Cree expression of awe and wonder—fitting for this stunning park.</p>
+                    </div>
                 </div>
-                <h3>Departure</h3>
-                <div class="day-details">
-                    <div class="detail-item">
-                        <strong>Morning:</strong> Final morning in Jasper
+
+                <!-- Day 5 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">05</span>
+                        <span class="day-date">Jun 25</span>
                     </div>
-                    <div class="detail-item">
-                        <strong>Drive:</strong> Jasper to Edmonton International Airport (~4 hours)
-                    </div>
-                    <div class="detail-item">
-                        <strong>Alternative:</strong> Drive back to Calgary via Icefields Parkway (~4.5 hours)
-                    </div>
-                    <div class="detail-item">
-                        <strong>Fly Home</strong>
+                    <div class="day-content">
+                        <h3>Icefields Parkway</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">All Day</span>
+                                <span class="activity-desc">Scenic drive from Banff to Jasper via the legendary Icefields Parkway</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Distance</span>
+                                <span class="activity-desc">232 km (144 miles) of stunning mountain scenery</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Stops</span>
+                                <span class="activity-desc">Bow Lake, Peyto Lake, Columbia Icefield, Athabasca Falls</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Experience</span>
+                                <span class="activity-desc">Columbia Icefield Glacier Adventure or Skywalk</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Evening</span>
+                                <span class="activity-desc">Arrive in Jasper, check in and explore the town</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">The Icefields Parkway is consistently rated one of the most scenic drives in the world.</p>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Accommodations -->
-        <section class="tips-section">
-            <h2>Where We're Staying</h2>
+                <!-- Day 6 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">06</span>
+                        <span class="day-date">Jun 26</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Jasper National Park</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">All Day</span>
+                                <span class="activity-desc">Explore the largest national park in the Canadian Rockies</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Must-See</span>
+                                <span class="activity-desc">Maligne Lake, Spirit Island boat cruise, Maligne Canyon</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Activities</span>
+                                <span class="activity-desc">Hiking, wildlife viewing, Jasper SkyTram</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Evening</span>
+                                <span class="activity-desc">Stargazing—Jasper is a Dark Sky Preserve</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="tip-card">
-                <h3>Banff (5 Nights: June 21-25)</h3>
-                <p>Options we're considering:</p>
-                <ul>
-                    <li><a href="https://www.booking.com/hotel/ca/the-banff-inn.html" target="_blank">The Banff Inn</a> - Central location on Banff Avenue</li>
-                    <li><a href="https://www.booking.com/hotel/ca/canoe-and-suites.html" target="_blank">Canoe & Suites</a> - Boutique hotel with mountain views</li>
-                </ul>
-            </div>
+                <!-- Day 7 -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">07</span>
+                        <span class="day-date">Jun 27</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Departure</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Morning</span>
+                                <span class="activity-desc">Final morning in Jasper</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Drive</span>
+                                <span class="activity-desc">Jasper to Edmonton or Calgary airport (~4-4.5 hours)</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Afternoon</span>
+                                <span class="activity-desc">Fly home</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-            <div class="tip-card">
-                <h3>Jasper (2 Nights: June 25-27)</h3>
-                <p>Options we're considering:</p>
-                <ul>
-                    <li><a href="https://www.booking.com/hotel/ca/jasper-1-old-lodge-road.html" target="_blank">Jasper Inn</a> - Classic mountain lodge</li>
-                    <li><a href="https://www.booking.com/hotel/ca/chateau-jasper.html" target="_blank">Chateau Jasper</a> - Comfortable rooms near downtown</li>
-                </ul>
-            </div>
-        </section>
+            <!-- Photo Gallery Section -->
+            <section class="photo-gallery">
+                <h2>Moments Captured</h2>
+                <p class="gallery-intro">Photos coming after our trip!</p>
 
-        <!-- Planning Tips -->
-        <section class="tips-section">
-            <h2>Planning Notes</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-caption="Lake Louise">
+                        <div class="photo-placeholder">
+                            <span>🏔️</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Moraine Lake">
+                        <div class="photo-placeholder">
+                            <span>💎</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Columbia Icefield">
+                        <div class="photo-placeholder">
+                            <span>🧊</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Jasper SkyTram">
+                        <div class="photo-placeholder">
+                            <span>🚡</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <div class="tip-card">
-                <h3>Parks Canada Pass</h3>
-                <p>A Discovery Pass covers entry to all national parks. Purchase in advance online or at the park gates.</p>
-            </div>
+            <!-- Accommodations -->
+            <section class="trip-highlights">
+                <h2>Where We're Staying</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h4>Banff (5 Nights: June 21-25)</h4>
+                        <p>Options we're considering:</p>
+                        <p>
+                            <a href="https://www.booking.com/hotel/ca/the-banff-inn.html" target="_blank">The Banff Inn</a> - Central location on Banff Avenue<br>
+                            <a href="https://www.booking.com/hotel/ca/canoe-and-suites.html" target="_blank">Canoe & Suites</a> - Boutique hotel with mountain views
+                        </p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Jasper (2 Nights: June 25-27)</h4>
+                        <p>Options we're considering:</p>
+                        <p>
+                            <a href="https://www.booking.com/hotel/ca/jasper-1-old-lodge-road.html" target="_blank">Jasper Inn</a> - Classic mountain lodge<br>
+                            <a href="https://www.booking.com/hotel/ca/chateau-jasper.html" target="_blank">Chateau Jasper</a> - Comfortable rooms near downtown
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-            <div class="tip-card">
-                <h3>Best Time to Visit</h3>
-                <p>Late June offers long daylight hours, wildflowers blooming, and most trails open. Weather can be unpredictable - pack layers!</p>
-            </div>
+            <!-- Planning Tips -->
+            <section class="trip-highlights">
+                <h2>Planning Notes</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h4>Parks Canada Pass</h4>
+                        <p>A Discovery Pass covers entry to all national parks. Purchase in advance online or at the park gates.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Best Time to Visit</h4>
+                        <p>Late June offers long daylight hours, wildflowers blooming, and most trails open. Weather can be unpredictable—pack layers!</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Lake Louise & Moraine Lake</h4>
+                        <p>These iconic lakes are extremely popular. Arrive before 7am or take the Parks Canada shuttle to avoid parking headaches.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Wildlife Safety</h4>
+                        <p>Bears are active in summer. Carry bear spray, make noise on trails, and never approach wildlife.</p>
+                    </div>
+                </div>
+            </section>
 
-            <div class="tip-card">
-                <h3>Lake Louise & Moraine Lake</h3>
-                <p>These iconic lakes are extremely popular. Arrive before 7am or take the Parks Canada shuttle to avoid parking headaches.</p>
-            </div>
-
-            <div class="tip-card">
-                <h3>Wildlife Safety</h3>
-                <p>Bears are active in summer. Carry bear spray, make noise on trails, and never approach wildlife. Store food properly.</p>
-            </div>
-        </section>
-
-        <!-- Useful Links -->
-        <section class="tips-section">
-            <h2>Useful Links</h2>
-
-            <div class="tip-card">
-                <h3>Official Resources</h3>
-                <ul>
-                    <li><a href="https://www.pc.gc.ca/en/pn-np/ab/banff" target="_blank">Banff National Park</a> - Parks Canada official site</li>
-                    <li><a href="https://www.pc.gc.ca/en/pn-np/bc/yoho" target="_blank">Yoho National Park</a> - Parks Canada official site</li>
-                    <li><a href="https://www.pc.gc.ca/en/pn-np/ab/jasper" target="_blank">Jasper National Park</a> - Parks Canada official site</li>
-                    <li><a href="https://www.banfflakelouise.com/" target="_blank">Banff & Lake Louise Tourism</a></li>
-                    <li><a href="https://www.jasper.travel/" target="_blank">Tourism Jasper</a></li>
-                </ul>
-            </div>
-
-            <div class="tip-card">
-                <h3>Experiences to Book</h3>
-                <ul>
-                    <li><a href="https://www.banffjaspercollection.com/attractions/columbia-icefield/" target="_blank">Columbia Icefield Adventure</a> - Glacier walk</li>
-                    <li><a href="https://www.banffgondola.com/" target="_blank">Banff Gondola</a> - Sulphur Mountain views</li>
-                    <li><a href="https://www.jasperskytram.com/" target="_blank">Jasper SkyTram</a> - Longest aerial tramway in Canada</li>
-                    <li><a href="https://www.malignelake.com/" target="_blank">Maligne Lake Cruise</a> - Spirit Island boat tour</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Photo Gallery Placeholder -->
-        <section class="photo-gallery">
-            <h2>Photo Gallery</h2>
-            <p class="gallery-placeholder">Photos coming after our trip!</p>
-        </section>
+            <!-- Useful Links -->
+            <section class="trip-highlights">
+                <h2>Useful Links</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h4>Official Resources</h4>
+                        <p>
+                            <a href="https://www.pc.gc.ca/en/pn-np/ab/banff" target="_blank">Banff National Park</a><br>
+                            <a href="https://www.pc.gc.ca/en/pn-np/bc/yoho" target="_blank">Yoho National Park</a><br>
+                            <a href="https://www.pc.gc.ca/en/pn-np/ab/jasper" target="_blank">Jasper National Park</a><br>
+                            <a href="https://www.banfflakelouise.com/" target="_blank">Banff & Lake Louise Tourism</a>
+                        </p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Experiences to Book</h4>
+                        <p>
+                            <a href="https://www.banffjaspercollection.com/attractions/columbia-icefield/" target="_blank">Columbia Icefield Adventure</a><br>
+                            <a href="https://www.banffgondola.com/" target="_blank">Banff Gondola</a><br>
+                            <a href="https://www.jasperskytram.com/" target="_blank">Jasper SkyTram</a><br>
+                            <a href="https://www.malignelake.com/" target="_blank">Maligne Lake Cruise</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </article>
     </main>
+
+    <!-- Lightbox for photos -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+        <button class="lightbox-next" aria-label="Next">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
             <p class="footer-logo">Our Family Travels</p>
             <p class="footer-tagline">Collecting memories, one adventure at a time.</p>
-            <p class="footer-copyright">&copy; 2026 All rights reserved.</p>
+            <p class="footer-copyright">© 2026 All rights reserved.</p>
         </div>
     </footer>
 
