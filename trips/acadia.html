@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acadia National Park - Our Family Travels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="main-header scrolled">
+        <nav>
+            <a href="../index.html" class="logo">Our Travels</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Journeys</a></li>
+                <li><a href="../index.html#about">Our Story</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <span class="icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <article class="trip-page">
+            <a href="../index.html" class="back-link">← Back to all journeys</a>
+
+            <!-- Trip Hero -->
+            <section class="trip-hero">
+                <div class="trip-hero-background" style="background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80');"></div>
+                <div class="trip-hero-overlay"></div>
+                <div class="trip-hero-content">
+                    <span class="trip-date">Summer</span>
+                    <h1>Acadia National Park</h1>
+                    <p class="trip-location-header">Mount Desert Island, Maine</p>
+                </div>
+            </section>
+
+            <!-- Trip Introduction -->
+            <section class="trip-intro">
+                <p>Acadia is one of the most beautiful places on the East Coast—rugged coastline, stunning mountain views, charming New England towns, and some of the best ice cream you'll ever taste. Whether you're hiking to Bubble Rock, catching sunrise on Cadillac Mountain, or walking to Bar Island at low tide, this park offers endless adventures for the whole family.</p>
+            </section>
+
+            <!-- Trip Stats -->
+            <section class="trip-overview">
+                <div class="stat-card">
+                    <span class="stat-value">1,530</span>
+                    <span class="stat-label">Cadillac Summit (ft)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">45</span>
+                    <span class="stat-label">Miles of Carriage Roads</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">27</span>
+                    <span class="stat-label">Park Loop Road (mi)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">1</span>
+                    <span class="stat-label">First Sunrise in USA</span>
+                </div>
+            </section>
+
+            <!-- Itinerary Section -->
+            <section class="itinerary">
+                <h2>Our Favorites</h2>
+
+                <!-- Getting Oriented -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">01</span>
+                        <span class="day-date">Start</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Visitor's Center & Park Loop Road</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">First Stop</span>
+                                <span class="activity-desc">Head straight to the Visitor's Center for maps and trail suggestions</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Ask About</span>
+                                <span class="activity-desc">Trail difficulty, length, and scenery types—they'll tailor recommendations</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Overview</span>
+                                <span class="activity-desc">Drive the Park Loop Road for spectacular views of the whole island</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">The Park Loop Road drive gives you a wonderful overview of Acadia and helps you plan which areas to explore in depth.</p>
+                    </div>
+                </div>
+
+                <!-- Cadillac Mountain -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">02</span>
+                        <span class="day-date">Dawn</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Cadillac Mountain Sunrise</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Early AM</span>
+                                <span class="activity-desc">Drive or hike to Cadillac Mountain summit for sunrise</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Why Sunrise</span>
+                                <span class="activity-desc">First place to see the sunrise in the United States (seasonally)</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Breakfast</span>
+                                <span class="activity-desc">Jeannie's Great Maine Breakfast in Bar Harbor—opens at 6:00 AM</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">If you can get the kids up early, sunrise is absolutely worth it. Then reward everyone with a hearty Maine breakfast!</p>
+                    </div>
+                </div>
+
+                <!-- Hiking -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">03</span>
+                        <span class="day-date">Hike</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Favorite Trails</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Must-Do</span>
+                                <span class="activity-desc">Bubble Rock—one of our favorite hikes in the park</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Easy Walk</span>
+                                <span class="activity-desc">Ship Harbor Trail in Southwest Harbor—beautiful rocky coastline</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Lunch</span>
+                                <span class="activity-desc">Eat a Pita in Southwest Harbor—absolutely fresh and delicious</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Ship Harbor Trail is more of a walk than a difficult hike, but the scenery along the rocky coastline is stunning.</p>
+                    </div>
+                </div>
+
+                <!-- Jordan Pond -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">04</span>
+                        <span class="day-date">Relax</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Jordan Pond House</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Must-Try</span>
+                                <span class="activity-desc">Famous popovers—a signature Acadia experience</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Order</span>
+                                <span class="activity-desc">Seafood chowder and blueberry lemonade</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Activity</span>
+                                <span class="activity-desc">Blueberry picking right on the grounds</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Sit back, enjoy the scenery, and savor the popovers—this is quintessential Acadia.</p>
+                    </div>
+                </div>
+
+                <!-- Bar Harbor -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">05</span>
+                        <span class="day-date">Town</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Bar Harbor & Bar Island</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Low Tide</span>
+                                <span class="activity-desc">Walk to Bar Island—lots of critters to find along the way</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Explore</span>
+                                <span class="activity-desc">Vibrant downtown with great shops and restaurants</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Ice Cream</span>
+                                <span class="activity-desc">Mt. Desert Ice Cream—we prefer the freestanding location on the outskirts</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Check the tide schedule! You can only walk to Bar Island at low tide. The town itself is vibrant and fun to explore.</p>
+                    </div>
+                </div>
+
+                <!-- Thunder Hole -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">06</span>
+                        <span class="day-date">Coast</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Thunder Hole</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Timing</span>
+                                <span class="activity-desc">Visit about one hour before high tide for the best sound</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">What to Expect</span>
+                                <span class="activity-desc">Waves crash into a narrow inlet, creating a thunderous boom</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">Timing is everything at Thunder Hole. Check the tide charts and plan to arrive about an hour before high tide.</p>
+                    </div>
+                </div>
+
+                <!-- Water Activities -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">07</span>
+                        <span class="day-date">Water</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Lakes & Kayaking</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Morning</span>
+                                <span class="activity-desc">Rent kayaks at the north end of Long Pond</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Afternoon</span>
+                                <span class="activity-desc">Echo Lake—nice beach with water much warmer than the ocean</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">The ocean water is cold! Echo Lake is a great alternative for swimming, especially with kids.</p>
+                    </div>
+                </div>
+
+                <!-- Biking -->
+                <div class="day-card">
+                    <div class="day-marker">
+                        <span class="day-number">08</span>
+                        <span class="day-date">Bike</span>
+                    </div>
+                    <div class="day-content">
+                        <h3>Carriage Roads</h3>
+                        <ul class="day-activities">
+                            <li>
+                                <span class="activity-time">Bring</span>
+                                <span class="activity-desc">Your bikes! Or rent them in Bar Harbor</span>
+                            </li>
+                            <li>
+                                <span class="activity-time">Ride</span>
+                                <span class="activity-desc">45 miles of historic carriage roads—car-free and family-friendly</span>
+                            </li>
+                        </ul>
+                        <p class="day-notes">The carriage roads were built by John D. Rockefeller Jr. and are perfect for family biking—no cars allowed!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Photo Gallery Section -->
+            <section class="photo-gallery">
+                <h2>Moments Captured</h2>
+                <p class="gallery-intro">A collection of memories from Acadia.</p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-caption="Cadillac Mountain Sunrise">
+                        <div class="photo-placeholder">
+                            <span>🌅</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Thunder Hole">
+                        <div class="photo-placeholder">
+                            <span>🌊</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Jordan Pond Popovers">
+                        <div class="photo-placeholder">
+                            <span>🥐</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-caption="Bar Island Walk">
+                        <div class="photo-placeholder">
+                            <span>🦀</span>
+                            <p>Add photo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trip Highlights -->
+            <section class="trip-highlights">
+                <h2>Tips & Must-Dos</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h4>Don't Miss</h4>
+                        <p>Jordan Pond House popovers, Cadillac Mountain sunrise, and Mt. Desert Ice Cream. These are quintessential Acadia experiences.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Tide Timing</h4>
+                        <p>Check tide charts! Bar Island walk requires low tide, and Thunder Hole is best about an hour before high tide.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Swimming</h4>
+                        <p>Ocean water is cold. Echo Lake has a nice beach with much warmer water—better for kids.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Best Eats</h4>
+                        <p>Eat a Pita (Southwest Harbor), Jeannie's Great Maine Breakfast (Bar Harbor), and Jordan Pond House for the full experience.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Useful Links -->
+            <section class="trip-highlights">
+                <h2>Useful Links</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h4>Official Resources</h4>
+                        <p>
+                            <a href="https://www.nps.gov/acad/" target="_blank">Acadia National Park (NPS)</a><br>
+                            <a href="https://www.nps.gov/acad/planyourvisit/tides.htm" target="_blank">Tide Charts</a><br>
+                            <a href="https://www.nps.gov/acad/planyourvisit/hiking.htm" target="_blank">Hiking Trails</a>
+                        </p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Dining</h4>
+                        <p>
+                            <a href="https://www.acadiajordanpondhouse.com/" target="_blank">Jordan Pond House</a><br>
+                            <a href="https://www.jeanniesbreakfast.com/" target="_blank">Jeannie's Great Maine Breakfast</a><br>
+                            <a href="https://www.mdiicecream.com/" target="_blank">Mt. Desert Ice Cream</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Lightbox for photos -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+        <button class="lightbox-next" aria-label="Next">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-logo">Our Family Travels</p>
+            <p class="footer-tagline">Collecting memories, one adventure at a time.</p>
+            <p class="footer-copyright">© 2026 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
